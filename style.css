@@ -1,0 +1,26 @@
+textarea {
+    border: 2px solid #00f;
+    resize: none;
+    margin-left: 2vw;
+}
+button {
+    height: 50px;
+    width: 50px;
+    background-color: #00f;
+    margin-left: 2vw;
+    cursor: pointer;
+    transition: 400ms;
+    color: #fff;
+}
+button:hover {
+    background-color: #000;
+}
+main {
+    width: 30vw;
+    background-color: #f00;
+    margin-left: 30vw;
+}
+marquee {
+    font-size: 120px ;
+    background-color: #0f0;
+}
