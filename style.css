@@ -24,3 +24,19 @@ marquee {
     font-size: 120px ;
     background-color: #0f0;
 }
+#linha {
+    display: none;
+}
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+    .linhas {
+        display: block;
+    }
+    body {
+        margin: 0;
+    }
+
+}
